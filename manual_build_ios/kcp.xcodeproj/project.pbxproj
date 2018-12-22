@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C0630E11FA5957A0029B5CF /* kcp.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C0630E01FA5957A0029B5CF /* kcp.c */; };
+		ADF5D8AC21CE7AC200925F65 /* ikcp.c in Sources */ = {isa = PBXBuildFile; fileRef = ADF5D8AB21CE7AC200925F65 /* ikcp.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +25,7 @@
 /* Begin PBXFileReference section */
 		6C0630D31FA5952D0029B5CF /* libkcp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libkcp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0630DF1FA5956C0029B5CF /* ikcp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ikcp.h; sourceTree = "<group>"; };
-		6C0630E01FA5957A0029B5CF /* kcp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kcp.c; sourceTree = "<group>"; };
+		ADF5D8AB21CE7AC200925F65 /* ikcp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ikcp.c; path = ../../ikcp.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		6C0630D51FA5952D0029B5CF /* kcp */ = {
 			isa = PBXGroup;
 			children = (
-				6C0630E01FA5957A0029B5CF /* kcp.c */,
+				ADF5D8AB21CE7AC200925F65 /* ikcp.c */,
 				6C0630DF1FA5956C0029B5CF /* ikcp.h */,
 			);
 			path = kcp;
@@ -120,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C0630E11FA5957A0029B5CF /* kcp.c in Sources */,
+				ADF5D8AC21CE7AC200925F65 /* ikcp.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

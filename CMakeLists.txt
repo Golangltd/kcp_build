@@ -53,7 +53,9 @@ if (APPLE)
            ${KCP_CORE}
         )
     else ()
-        set(CMAKE_OSX_ARCHITECTURES "$(ARCHS_STANDARD_32_64_BIT)")
+        # modify by dantezhu
+        # support x64 only with xcode10.1
+        set(CMAKE_OSX_ARCHITECTURES "$(ARCHS_STANDARD_64_BIT)")
         add_library(kcp MODULE
             ${KCP_CORE}
         )

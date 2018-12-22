@@ -32,8 +32,6 @@
         [DllImport(KcpDLL, CallingConvention=CallingConvention.Cdecl)]
         public static extern int ikcp_send(IntPtr kcp, byte[] buffer, int len);
         [DllImport(KcpDLL, CallingConvention=CallingConvention.Cdecl)]
-        public static extern void ikcp_setminrto(IntPtr ptr, int minrto);
-        [DllImport(KcpDLL, CallingConvention=CallingConvention.Cdecl)]
         public static extern int ikcp_setmtu(IntPtr kcp, int mtu);
         [DllImport(KcpDLL, CallingConvention=CallingConvention.Cdecl)]
         public static extern void ikcp_setoutput(IntPtr kcp, kcp_output output);

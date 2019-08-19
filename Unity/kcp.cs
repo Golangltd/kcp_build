@@ -5,7 +5,7 @@
 
     public class kcp
     {
-#if UNITY_IPHONE && !UNITY_EDITOR
+#if UNITY_IOS && !UNITY_EDITOR
         const string KcpDLL = "__Internal";
 #else
         const string KcpDLL = "kcp";

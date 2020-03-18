@@ -9,7 +9,7 @@ kcp: v1.5
 
     win32/win64
         make_win32.bat / make_win64.bat
-        编译环境为 vs2017
+        编译环境为 vs2019
         执行结束后会自动拷贝至 Plugins/x86/kcp.dll 和 Plugins/x86_64/kcp.dll
 
     osx 

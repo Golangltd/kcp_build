@@ -3,7 +3,9 @@ Unity3D中可靠UDP网络库kcp的各平台动态库构建项目
  
 博客：http://www.cnblogs.com/SChivas/p/7854100.html
 
-ADD-BEGIN by dantezhu
+kcp: v1.5
+
+编译方法:
 
     win32/win64
         make_win32.bat / make_win64.bat
@@ -29,5 +31,3 @@ ADD-BEGIN by dantezhu
         manual_build_android
         脚本编译失效，使用新建的 manual_build_android/build.sh 没问题，ndk 版本 r16b。另外，libs除了原有的armeabi-v7a和x86，我把生成的都放进来了。
         执行结束后，需要手动将 libs 目录拷贝至 Plugins/Android/
-
-ADD-END

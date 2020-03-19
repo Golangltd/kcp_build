@@ -14,7 +14,7 @@ kcp: v1.5
 
     osx 
         make_osx.sh
-        脚本编译原来失效，改为只输出x64位库后正常，xcode版本10.1
+        脚本编译原来失效，改为只输出x64位库后正常。
         执行结束后会自动拷贝至 Plugins/kcp.bundle
 
     linux64
@@ -24,7 +24,7 @@ kcp: v1.5
 
     ios
         manual_build_ios
-        脚本编译失效，但是直接用 manual_build_ios 没问题，xcode版本10.1
+        脚本编译失效，但是直接用 manual_build_ios 没问题，记得将编译Device设置为Generic IOS Device。
         执行结束后，需要手动将 libkcp.a 拷贝至 Plugins/iOS/
 
     android
